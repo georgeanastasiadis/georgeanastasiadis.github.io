@@ -1,0 +1,103 @@
+body{
+    font-family: "Wix Madefor Text", sans-serif;
+}
+
+.container-fluid{
+    padding: 0px !important;
+}
+
+.navbar-brand{
+    font-family: "Lobster", sans-serif;
+    color:rgb(243, 234, 234) !important;
+    font-weight: bold;
+    font-size: 1.5rem !important;
+    padding-left: 20px !important;
+}
+
+.nav-item{
+    font-family: "Inter", sans-serif;
+}
+
+.section-title{
+    color: rgb(214, 153, 124) !important;
+    margin-bottom: 25px;
+}
+
+p{
+    font-weight: 500 !important;
+    color: rgb(250, 250, 250);
+}
+
+#name{
+    font-size: 3.5rem !important;
+    color: rgb(214, 153, 124) !important;
+}
+
+#particles-js{
+    height: 100vh;
+    z-index: -1;
+    background-image: linear-gradient(rgba(22, 7, 7, 0.938),rgba(15, 5, 1, 0.712));
+}
+
+#home{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -45%;
+    top: 45% ;
+    transform: translate(-45%,-45%);
+    page-break-after: always;
+    z-index: 1;   
+}
+
+#home>.container {
+    width: 100%;
+    height: 100%;
+}
+
+#about{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+#contact{
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+#resume{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+ 
+hr{
+    color: rgb(214, 153, 124) !important
+}
+
+.nav>li{
+    color:rgb(243, 234, 234) !important;
+}
+
+
+@media screen and (max-width: 400px){
+
+    #name{
+        font-size: 2rem !important;
+    }
+
+}
+
+@media (min-width: 401px) and (max-width: 767px){
+
+    #name{
+        font-size: 2.3rem !important;
+    }
+
+}
+
+
+
+
+
+
