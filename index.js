@@ -25,7 +25,7 @@ const navItems = {
 }
 
 const ObserverOptions = {
-    threshold: 0.3
+    threshold: 0.2
 };
 
 //use of observer API to make active the current section 
