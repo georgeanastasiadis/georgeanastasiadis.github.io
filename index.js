@@ -14,14 +14,16 @@ const sections = [
     selectElementByClass('home'),
     selectElementByClass('about'),
     selectElementByClass('resume'),
-    selectElementByClass('contact'),
+    selectElementByClass('projects'),
+    selectElementByClass('contact')
 ];
 
 const navItems = {
     home: selectElementByClass("nav-home-tab"),
     about: selectElementByClass("nav-about-tab"),
     resume: selectElementByClass("nav-resume-tab"),
-    contact: selectElementByClass("nav-contact-tab"),
+    projects: selectElementByClass("nav-projects-tab"),
+    contact: selectElementByClass("nav-contact-tab")
 }
 
 const ObserverOptions = {
